@@ -5,7 +5,7 @@ Lesson 11 - 2001 - 2022-11-20
 ## Photoshoot
 
 ## Race
-
+```
 K = 10 
 X = 1 --> run <= 1
 Try: 
@@ -24,7 +24,7 @@ back  dist: d2 = (M-1+X) * (M-X) / 2
 d1 + d2 <= X
 1. d1+d2 == X -> M + (M-X) = 2M-X 
 2. rem = X-(d1+d2) --> 2M-X + (1 or 2)
-
+```
 ```
 // input
 // determine M
