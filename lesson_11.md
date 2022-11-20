@@ -40,10 +40,13 @@ if dist == X
     return ans
 else 
     rem = X -dist
+    // 3 cases
     if rem <= M && rem >=X
         return ans+1
-    else
-        return ans + rem/M ...
+    else if rem < X
+        ...
+    else if rem > M
+        ...
 ```        
 
 ```
