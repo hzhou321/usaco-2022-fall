@@ -45,7 +45,7 @@ else
     else
         return ans + rem/M ...
 ```        
-```
+
 ```
 int calc_dist(M)
     d1 = (1+M)*M/2
