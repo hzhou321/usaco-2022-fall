@@ -1,9 +1,41 @@
 Lesson 11 - 2001 - 2022-11-20
 
 ## Word Processor
+```
+char_count = 0
+for i=0:N
+   n = strlen(s[i])
+   if char_count+n <= K
+       if char_count>0
+          printf(" ")
+       print(s[i])
+       char_count+=n
+   else
+       print("\n")
+       char_count = 0
+if char_count > 0
+   print("\n")
+          
+```
 
 ## Photoshoot
 
+4
+4 6 7
+a1+a2          = 4
+   a2+a3       = 6
+      a3+a4    = 7
+```
+foreach permutation  --> O(N!)
+    if check()
+        return and print ans        
+```
+```
+for i=0:N   -- O(N^2)
+   a[0] = i+1  
+   for j=1:N
+       a[j] = b[j-1] -a[j-1]
+```       
 ## Race
 ```
 K = 10 
